@@ -10,5 +10,9 @@ p {
     color: azure;
 }
 p.awareness {
-    color: black;
+    color: blanchedalmond;
+}
+#awareness {
+    background-color: #1d6a96;
+    color: blanchedalmond;
 }
