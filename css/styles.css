@@ -9,6 +9,7 @@
   color: whitesmoke;
   letter-spacing: 3px;
   font-size: 3rem;
+  font-weight: 700;
 }
 .navigation .nav-bar .nav-links{
   float: right;
@@ -22,9 +23,13 @@
   color: whitesmoke;
   font-weight: 600;
   text-decoration: none;
+  padding: 1rem;
+  transition: .1s;
 } 
 .navigation .nav-bar ul li a:hover{
   color: white;
+  background-color: #85b8cb;
+  /* padding: .4px; */
 }
 .bars{
   display: none;
