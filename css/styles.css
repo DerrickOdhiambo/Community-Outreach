@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+
 .footer1 {
     text-align: center;
     background: url(./assets/background1.jpg);
     height: 200px;
     color: white;
+    font-family: 'Sawarabi Mincho', sans-serif;
 }
 .p1 {
     text-align: left;
