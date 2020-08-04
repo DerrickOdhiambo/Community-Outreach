@@ -2,6 +2,7 @@
     text-align: center;
     background: url(./assets/background1.jpg);
     height: 200px;
+    color: white;
 }
 .p1 {
     text-align: left;
@@ -10,4 +11,9 @@
     background: url(./assets/background2.jpg);
     height: 200px;
     background-size: cover;
+    color: white;
+    text-align: center;
+}
+.adress {
+    text-align: right;
 }
