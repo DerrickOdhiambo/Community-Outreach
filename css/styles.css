@@ -98,3 +98,14 @@
   color: #1d6a96;
   outline: none;
 }
+.container {
+    background-color: #283b42;
+    text-align: center;
+}
+header {
+    text-align:center ;
+    color: azure;
+}
+p {
+    color: azure;
+}
