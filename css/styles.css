@@ -9,3 +9,6 @@ header {
 p {
     color: azure;
 }
+p.awareness {
+    color: black;
+}
