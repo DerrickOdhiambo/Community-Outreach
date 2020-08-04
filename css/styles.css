@@ -1,0 +1,33 @@
+.navigation{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1d6a96;
+  min-height: 10vh;
+}
+.logo h3{
+  color: whitesmoke;
+  letter-spacing: 3px;
+  font-size: 3rem;
+}
+.navigation .nav-bar ul{
+  float: right;
+}
+.navigation .nav-bar ul li{
+  float: left;
+  padding: 1rem;
+  list-style-type: none;
+}
+.navigation .nav-bar ul li a{
+  color: whitesmoke;
+  font-weight: 600;
+} 
+.bars{
+  display: none;
+}
+.bars div{
+  width: 25px;
+  height: 3px;
+  margin: 3px;
+  background-color: whitesmoke;
+}
