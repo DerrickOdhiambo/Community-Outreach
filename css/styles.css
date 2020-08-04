@@ -28,10 +28,16 @@ h2 {
     font-size: medium;
 }
 body {
-    background: url(./assets/peleka.jpg);
+    background: url(../css/assets/mwisho21.jpg);
     font-family: 'Sawarabi Mincho', sans-serif;
     color: white;
 }
 h1 {
     text-align: center;
+}
+.img {
+    float: right;
+    height: 15%;
+    width: 30%;
+
 }
