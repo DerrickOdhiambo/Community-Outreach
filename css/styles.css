@@ -4,6 +4,24 @@
   align-items: center;
   background-color: #1d6a96;
   min-height: 10vh;
+  position: inherit;
+}
+.header{
+  align-items: center;
+  justify-content: space-between;
+  height: 20vh;
+  background-color: #d1dddd;
+}
+.search-box input{
+  padding: .4rem;
+  border: none;
+  background-color: #85b8cb;
+  outline: none;
+}
+.search-box button{
+  padding: .4rem .6rem;
+  margin-right: 10px;
+  border: none;
 }
 .logo h3{
   color: whitesmoke;
