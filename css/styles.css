@@ -4,3 +4,8 @@ body {
     margin: 0;
     padding: 0;
 }
+.section4 {
+    background: url(./assets/blue.jpg);
+    height: auto;
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
