@@ -1,18 +1,8 @@
+alert("yooo");
 $(document).ready(function() {
-    $(".toggle").click(function() {
-      $("#shown-design").toggle();
-      $("#hidden-design").toggle();
-    });
-  });
-  $(document).ready(function() {
-    $(".toggle1").click(function() {
-      $("#shown-development").toggle();
-      $("#hidden-development").toggle();
-    });
-  });
-  $(document).ready(function() {
-    $(".toggle2").click(function() {
-      $("#shown-product").toggle();
-      $("#hidden-product").toggle();
-    });
-  });
+    $(".event1").mouseover(function() {
+      $("#j1").show()
+    })
+    $(".event1").mouseleave(function(){
+      $("#j1").hide()
+    })
