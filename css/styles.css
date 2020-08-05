@@ -1,6 +1,7 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
-
+body {
+    font-family: 'Sawarabi Mincho',sans-serif;;
+}
 .footer1 {
     text-align: center;
     background: url(./assets/background1.jpg);
@@ -136,4 +137,18 @@ header {
 }
 p {
     color: azure;
+}
+p.awareness {
+    color: blanchedalmond;
+}
+#awareness {
+    background-color: #1d6a96;
+    color: blanchedalmond;
+}
+h6 {
+    text-align: center;
+    text-decoration: underline;
+}
+.underline {
+    text-decoration: underline;
 }
