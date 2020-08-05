@@ -4,7 +4,6 @@
   align-items: center;
   background-color: #1d6a96;
   min-height: 10vh;
-  position: inherit;
 }
 .header{
   align-items: center;
@@ -99,8 +98,6 @@
 .card{
   margin: 20px 10px;
   background-color: #d1dddd;
-}
-.card-body{
   box-shadow: 0 0 20px 7px rgba(0,0,0,0.1);
 }
 .card-body h5{
@@ -120,15 +117,4 @@
 .card-body a:hover{
   color: #1d6a96;
   outline: none;
-}
-.container {
-    background-color: #283b42;
-    text-align: center;
-}
-header {
-    text-align:center ;
-    color: azure;
-}
-p {
-    color: azure;
 }
