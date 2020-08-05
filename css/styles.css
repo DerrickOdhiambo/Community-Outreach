@@ -137,7 +137,7 @@ body{
 } */
 .about-us{
   background: whitesmoke;
-  padding:2rem 20rem 1rem 5rem;
+  padding:2rem 25rem 1rem 5rem;
 }
 .about-us .container h3{
   color: #70aec5;
@@ -148,23 +148,28 @@ body{
 }
 .footer1 {
   text-align: center;
-  background: url(./assets/background1.jpg);
+  background-color: #3a555f;
   height: 200px;
   color: white;
   font-family: 'Sawarabi Mincho', sans-serif;
 }
 .p1 {
   text-align: left;
+  padding: 20px;
 }
 .footer2 {
-  background: url(./assets/background2.jpg);
-  height: 200px;
+  background: #437b9b;
+  height: 240px;
   background-size: cover;
   color: white;
   text-align: center;
 }
 .address {
   text-align: right;
+  padding: 20px;
+}
+.container .row .col-md-3 p i{
+  font-size: 25px;
 }
 
 
