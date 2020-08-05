@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
 body{
   background-color: #d1dddd;
 }
@@ -145,6 +146,35 @@ body{
   color: #283b42;
   text-decoration: underline;
 }
+.footer1 {
+  text-align: center;
+  background: url(./assets/background1.jpg);
+  height: 200px;
+  color: white;
+  font-family: 'Sawarabi Mincho', sans-serif;
+}
+.p1 {
+  text-align: left;
+}
+.footer2 {
+  background: url(./assets/background2.jpg);
+  height: 200px;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.address {
+  text-align: right;
+}
+
+
+
+
+
+
+
+
+
 /* Media Query for the nav bar */
 @media screen and (max-width: 768px){
   .body{
