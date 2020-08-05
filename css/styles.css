@@ -149,9 +149,17 @@ body{
 .footer1 {
   text-align: center;
   background-color: #3a555f;
-  height: 200px;
+  height: 220px;
   color: white;
   font-family: 'Sawarabi Mincho', sans-serif;
+}
+.footer1 .container .row .col ul li a{
+  color: whitesmoke;
+  transition: .4s;
+}
+.footer1 .container .row .col ul li a:hover{
+  margin-left: 7px;
+  transition: .4s;
 }
 .p1 {
   text-align: left;
