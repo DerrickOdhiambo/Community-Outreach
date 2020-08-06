@@ -28,6 +28,28 @@
       <div class="line3"></div>
     </div>
   </div>
+  <div class="volunteer-form">
+    <h4>If you would like to volunteer, please fill the form below</h4>
+    <form onsubmit="return submitForm(event)" id="volunteer-form">
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" name="name" class="form-control" id="name" placeholder="Name:">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" class="form-control" placeholder="Email..">
+      </div>
+      <div class="form-group">
+        <label for="contact">Contact</label>
+        <input type="text" name="contact" id="contact" class="form-control" placeholder="Phone No..">
+      </div>
+      <div class="form-group">
+        <label for="location">Location</label>
+        <input type="text" name="location" id="location" class="form-control" placeholder="Location..">
+      </div>
+      <input type="submit" name="submit" id="submit" value="submit">
+    </form>
+  </div>
   <footer>
     <h3>Community Outreach</h3>
     <div class="footer-events">
