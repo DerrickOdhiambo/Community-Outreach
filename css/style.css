@@ -18,6 +18,10 @@ img {
     margin: auto;
 }
 
+.mySlides{
+    position: relative;
+  }
+  
 /* Caption text */
 .text {
     color: #f2f2f2;
