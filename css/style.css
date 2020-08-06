@@ -93,3 +93,21 @@ img {
         font-size: 11px
     }
 }
+.section4 {
+    /* background: url(./assets/blue.jpg); */
+    height: auto;
+    font-family: 'Sawarabi Mincho', sans-serif;
+    text-align: center;
+    color: white;
+}
+.img-fluid {
+    padding-bottom: 1rem;
+}
+.container .row .col-md-6 img{
+    height: 50%;
+    width: 100%;
+    margin: auto;
+}
+.slideshow-container{
+    position: relative;
+}
