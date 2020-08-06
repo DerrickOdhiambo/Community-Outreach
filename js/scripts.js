@@ -13,7 +13,6 @@ function submitForm(event) {
     event.preventDefault();
 }
 
-
 const mySlide = function(){
   const bar = document.querySelector('.bars');
   const nav = document.querySelector('.nav-links')
