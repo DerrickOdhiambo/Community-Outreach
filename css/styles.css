@@ -253,82 +253,18 @@ body{
     color: white;
     font-family: 'Sawarabi Mincho', sans-serif;
 }
-.p1 {
-    text-align: left;
-}
-.footer2 {
-    background: url(./assets/background2.jpg);
-    height: 200px;
-    background-size: cover;
-    color: white;
+.section4 {
+    background: url(./assets/blue.jpg);
+    height: auto;
+    font-family: 'Sawarabi Mincho', sans-serif;
     text-align: center;
-    font-family: 'Sawarabi Mincho', sans-serif;
-}
-/* .adress {
-    text-align: right;
-}
-h1 {
-    font-size: medium;
-}
-h2 {
-    font-size: medium;
-}
-body {
-    background: url(../css/assets/mwisho21.jpg);
-    font-family: 'Sawarabi Mincho', sans-serif;
     color: white;
 }
-h1 {
-    text-align: center;
+
+.img-fluid {
+    padding-bottom: 1rem;
 }
-.img {
-    float: right;
-    height: 15%;
-    width: 30%;
-} */
-.navigation{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #1d6a96;
-  min-height: 10vh;
-}
-.logo h3{
-  color: whitesmoke;
-  letter-spacing: 3px;
-  font-size: 3rem;
-  font-weight: 700;
-}
-.navigation .nav-bar .nav-links{
-  float: right;
-}
-.navigation .nav-bar ul li{
-  float: left;
-  padding: 1rem;
-  list-style-type: none;
-}
-.navigation .nav-bar ul li a{
-  color: whitesmoke;
-  font-weight: 600;
-  text-decoration: none;
-  padding: 1rem;
-  transition: .1s;
-} 
-.navigation .nav-bar ul li a:hover{
-  color: white;
-  background-color: #85b8cb;
-  /* padding: .4px; */
-}
-.bars{
-  display: none;
-  cursor: pointer;
-}
-.bars div{
-  width: 25px;
-  height: 3px;
-  margin: 5px;
-  background-color: whitesmoke;
-}
+
 
 /* Media Query for the nav bar */
 @media screen and (max-width: 768px){
