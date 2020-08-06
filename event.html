@@ -28,8 +28,8 @@
       <div class="line3"></div>
     </div>
   </div>
-  <div class="volunteer-form">
-    <h3>Volenteer Work</h3>
+  <div class="container volunteer-form">
+    <h3>Volunteer Work</h3>
     <p>Donations is not all about money, but time also. Being part of the program will be a major boost not only to us but also to the affected just by spending time with them.</p>
     <h4>How can YOU make a difference?</h4>
     <ul>
@@ -39,25 +39,31 @@
       <li>Organizing for donations from the community at large.</li>
     </ul>
     <h4>If you would like to volunteer, please fill the form below</h4>
-    <form onsubmit="return submitForm(event)" id="volunteer-form">
-      <div class="form-group">
-        <label for="name">Full Name</label>
-        <input type="text" name="name" class="form-control" id="name" placeholder="Name:">
-      </div>
-      <div class="form-group">
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" class="form-control" placeholder="Email..">
-      </div>
-      <div class="form-group">
-        <label for="contact">Contact</label>
-        <input type="text" name="contact" id="contact" class="form-control" placeholder="Phone No..">
-      </div>
-      <div class="form-group">
-        <label for="location">Location</label>
-        <input type="text" name="location" id="location" class="form-control" placeholder="Location..">
-      </div>
-      <input type="submit" name="submit" id="submit" value="submit">
-    </form>
+    <div class="form p-3">
+      <form onsubmit="return submitForm(event)" id="volunteer-form">
+        <div class="form-group col-md-5">
+          <label for="name">Full Name</label>
+          <input type="text" name="name" class="form-control" id="name" placeholder="Name:">
+        </div>
+        <div class="form-group col-md-5">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" class="form-control" placeholder="Email..">
+        </div>
+        <div class="form-group col-md-5">
+          <label for="contact">Contact</label>
+          <input type="text" name="contact" id="contact" class="form-control" placeholder="Phone No..">
+        </div>
+        <div class="form-group col-md-5">
+          <label for="location">Location</label>
+          <input type="text" name="location" id="location" class="form-control" placeholder="Location..">
+        </div>
+        <input type="submit" class="btn btn-info ml-3" name="submit" id="submit" value="submit">
+      </form>
+    </div>
+    <div class="contact-info">
+      <h4>Volunteer Contact Information</h4>
+      <p>Jackline Makau <br>+254 704 488 014 <br>kasyokamakau@gmail.com</p>
+    </div>
   </div>
   <footer>
     <h3>Community Outreach</h3>
