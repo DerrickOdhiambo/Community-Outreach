@@ -218,7 +218,7 @@ body{
   transition: .5s;
   text-decoration: none;
 }
-.footer1 h3{
+.footer1 h3, .volunteer-form h4{
   color: rgb(148, 100, 108);
 }
 .container .awareness-cpsp h2, .container .awareness-cpsp h4, .symptoms h2, .treatment h2, .volunteer-form h3{
