@@ -224,6 +224,28 @@ body{
 .container .awareness-cpsp h2, .container .awareness-cpsp h4, .symptoms h2, .treatment h2, .volunteer-form h3{
   color: rgb(3, 77, 3);
 }
+.footer-events {
+  background-color: #70aec5;
+}
+.footer-events-page h3{
+  color: whitesmoke;
+  padding: 10px;
+}
+.footer-events-socials{
+  background-color: #1D6A96;
+  height: 50px;
+}
+.footer-events-socials a {
+  color: rgb(238, 226, 226);
+  padding: .7rem 2rem;
+  font-size: 20px;
+}
+.footer-events-text {
+  color: whitesmoke;
+  font-size: large;
+  text-align: center;
+  padding: 1%;
+}
 
 
 /* Media Query for the nav bar */
