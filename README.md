@@ -5,7 +5,7 @@ This is an application template for a design studio.
 - [Click for to view the site](https://derrickodhiambo.github.io/Community-Outreach/)
 
 ## Live Image Demo
-![Delani Studio](images/CPSPwebpage)
+![CPSP](images/CPSPwebpage)
 
 ## Setup
 No installation required for the application. To start this project, cloning or forking would be ideal.
